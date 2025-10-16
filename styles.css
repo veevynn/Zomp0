@@ -6,7 +6,7 @@ body {
 }
 
 .mainBox {
-    position: relative;
+    display: block;
     display: flex;
     width: 75%;
     height: auto;
@@ -24,7 +24,7 @@ body {
 }
 
 .box {
-    position: relative;
+    display: block;
     display: flex;
     width: 75%;
     height: auto;
@@ -33,23 +33,21 @@ body {
     justify-content: center;
     align-self: center;
     justify-self: center;
-    border-color: red;
+    border-color: rgb(0, 34, 255);
     background-color: black;
     border-width: 5px;
     border-style: solid;
     box-shadow: 0 0 8px 5px rgba(0, 89, 255, 0.7);
     margin: 10px;
-    z-index: 1;
 }
 
 .startButton {
-    position: relative;
-    width: 15;
-    height: 6;
+    display: block;
+    width: 30;
+    height: 10;
     background-color: green;
     border-width: 3px;
     border-style: solid;
     border-color: darkgreen;
     border-radius: 5%;
-    z-index: 0;
 }
