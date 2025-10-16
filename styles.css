@@ -12,7 +12,6 @@ body {
     height: auto;
     min-height: 400px;
     border-radius: 5%;
-    align-items: center;
     justify-content: center;
     align-self: center;
     justify-self: center;
@@ -31,12 +30,11 @@ body {
     height: auto;
     min-height: 400px;
     border-radius: 5%;
-    align-items: center;
     justify-content: center;
     align-self: center;
     justify-self: center;
     border-color: red;
-    color: black;
+    background-color: black;
     border-width: 5px;
     border-style: solid;
     box-shadow: 0 0 8px 5px rgba(0, 89, 255, 0.7);
@@ -48,14 +46,10 @@ body {
     position: relative;
     width: 15;
     height: 6;
-    color: green;
+    background-color: green;
     border-width: 3px;
     border-style: solid;
     border-color: darkgreen;
     border-radius: 5%;
     z-index: 0;
-}
-
-.logoImg {
-    
 }
