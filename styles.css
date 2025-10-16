@@ -43,11 +43,14 @@ body {
 
 .startButton {
     display: block;
-    width: 30;
-    height: 10;
+    width: 30px;
+    height: 10px;
     background-color: green;
     border-width: 3px;
     border-style: solid;
     border-color: darkgreen;
     border-radius: 5%;
+    max-width: 30px;
+    max-height: 10px;
+    float: inline-end;
 }
