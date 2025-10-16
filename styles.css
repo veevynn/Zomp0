@@ -6,7 +6,6 @@ body {
 }
 
 .mainBox {
-    display: block;
     display: flex;
     width: 75%;
     height: auto;
@@ -24,7 +23,6 @@ body {
 }
 
 .box {
-    display: block;
     display: flex;
     width: 75%;
     height: auto;
@@ -42,7 +40,6 @@ body {
 }
 
 .startButton {
-    display: block;
     width: 30px;
     height: 10px;
     background-color: green;
@@ -52,5 +49,4 @@ body {
     border-radius: 5%;
     max-width: 30px;
     max-height: 10px;
-    float: inline-end;
 }
