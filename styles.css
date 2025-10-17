@@ -9,6 +9,7 @@ body {
 
 .mainBox {
     display: flex;
+    flex-direction: column;
     width: 75%;
     height: auto;
     min-height: 400px;
