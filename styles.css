@@ -39,20 +39,20 @@ body {
     border-width: 2px;
     border-style: solid;
     box-shadow: 0 0 8px 5px rgba(0, 89, 255, 0.7);
-    margin: 3px;
+    margin: 6px;
 }
 
 .startButton {
     display: flex;
     width: 150px;
     height: 50px;
-    background-color: green;
+    background-color: red;
     border-width: 3px;
     border-style: solid;
-    border-color: darkgreen;
+    border-color: darkred;
     border-radius: 5%;
     justify-content: center;
     align-items: center;
     align-content: center;
-    margin: 3x;
+    margin: 4x;
 }
