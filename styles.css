@@ -22,7 +22,7 @@ body {
     border-width: 5px;
     border-style: solid;
     box-shadow: 0 0 8px 5px rgba(255, 0, 0, 0.7);
-    margin: 10px;
+    margin: 5px;
 }
 
 .box {
@@ -36,10 +36,10 @@ body {
     align-content: center;
     border-color: rgb(0, 34, 255);
     background-color: black;
-    border-width: 5px;
+    border-width: 2px;
     border-style: solid;
     box-shadow: 0 0 8px 5px rgba(0, 89, 255, 0.7);
-    margin: 10px;
+    margin: 3px;
 }
 
 .startButton {
@@ -54,10 +54,4 @@ body {
     justify-content: center;
     align-items: center;
     align-content: center;
-}
-
-.startButton p {
-    font-weight: bold;
-    color: white;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
