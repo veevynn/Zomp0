@@ -27,13 +27,12 @@ body {
 
 .box {
     display: flex;
+    flex-direction: column;
     width: 85%;
     height: auto;
     min-height: 400px;
     border-radius: 5%;
     justify-content: center;
-    align-items: center;
-    align-content: center;
     border-color: rgb(0, 34, 255);
     background-color: black;
     border-width: 2px;
@@ -55,4 +54,5 @@ body {
     align-items: center;
     align-content: center;
     margin: 4x;
+    align-self: baseline;
 }
