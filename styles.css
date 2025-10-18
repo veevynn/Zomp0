@@ -43,6 +43,7 @@ body {
 }
 
 .startButton {
+    display: flex;
     width: 150px;
     height: 50px;
     background-color: green;
@@ -50,4 +51,13 @@ body {
     border-style: solid;
     border-color: darkgreen;
     border-radius: 5%;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+
+.startButton p {
+    font-weight: bold;
+    color: white;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
