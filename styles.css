@@ -82,4 +82,6 @@ body {
     align-content: center;
     justify-content: center;
     flex-direction: column;
+    width: auto;
+    height: auto;
 }
