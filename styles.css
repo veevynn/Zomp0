@@ -5,6 +5,7 @@ body {
     background-color: rgb(24, 24, 24);
     height: 100vh;
     padding: 0;
+    flex-direction: column;
 }
 
 .mainBox {
@@ -17,7 +18,7 @@ body {
     align-items: center;
     align-content: center;
     border-color: red;
-    color: black;
+    background-color: black;
     border-width: 5px;
     border-style: solid;
     box-shadow: 0 0 8px 5px rgba(255, 0, 0, 0.7);
@@ -67,7 +68,10 @@ body {
     width: 100%;
     height: 7px;
     opacity: 50%;
-    color: blueviolet;
+    background-color: blueviolet;
+    border-top-color: indigo;
+    position: absolute;
+    bottom: 0px;
 }
 
 .instructions {
