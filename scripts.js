@@ -1,5 +1,10 @@
 const mainBox = document.getElementById("mainBox");
 const box = document.getElementById("box");
+const startButton = document.getElementById("startButton");
+const resetButton = document.getElementById("resetButton");
+let savedStartPage = localStorage.getItem("savedStartPage");
+let health = localStorage.getItem('health');
+let ration = localStorage.getItem('ration');
 
 function isDesktop() {
     const ua = navigator.userAgent;
@@ -9,7 +14,26 @@ function isDesktop() {
 }
 
 if (isDesktop()) {
-    mainBox.style.width = "45%"
+    mainBox.style.width = "30%"
 } else {
-    mainBox.style.width = "75%"
+    mainBox.style.width = "50%"
 }
+
+if (!savedStartPage) {
+    localStorage.setItem("savedStartPage", "0");
+}
+
+let startPage = "./scenes/" + savedStartPage + "/" + savedStartPage + ".html"
+
+console.log(startPage)
+
+startButton.addEventListener("click", () => {
+    window.location.href = startPage;
+});
+
+resetButton.addEventListener("click", () => {
+    localStorage.setItem("savedStartPage", "0");
+    localStorage.setItem("health", "100");
+    localStorage.setItem("ration", "0");
+    window.location.href = "./index.html";
+});
