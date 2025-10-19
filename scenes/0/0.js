@@ -6,6 +6,8 @@ const option1 = document.getElementById("sB-0.1")
 const option2 = document.getElementById("sB-0.2")
 const option3 = document.getElementById("sB-0.3")
 
+localStorage.setItem("savedStartPage", "0");
+
 if (!health) {
     health = 100;
 } else {

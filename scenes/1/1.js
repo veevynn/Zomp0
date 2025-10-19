@@ -6,6 +6,8 @@ const option1 = document.getElementById("sB-1.1")
 const option2 = document.getElementById("sB-1.2")
 const option3 = document.getElementById("sB-1.3")
 
+localStorage.setItem("savedStartPage", "1");
+
 option1.addEventListener("click", () => {
     localStorage.setItem("health", health - 25);
     window.location.href = "../1/1.html"

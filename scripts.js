@@ -19,7 +19,7 @@ if (isDesktop()) {
     mainBox.style.width = "50%"
 }
 
-if (!savedStartPage) {
+if (savedStartPage === null) {
     localStorage.setItem("savedStartPage", "0");
 }
 
